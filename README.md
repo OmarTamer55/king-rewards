@@ -1,1 +1,1 @@
-# king-rewards
+# lordsbot
