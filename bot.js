@@ -643,12 +643,12 @@ client.on('message', function(message) {
 });
 
 //Settings!
-const yourID = ""; //Instructions on how to get this: https://redd.it/40zgse
+const yourID = "520586227146293248"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "$createrolemessage"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Hacker", "Artist", "Public Relations", "Intern"];
 const reactions = ["💻", "🖌", "😃", "🆕"];
-const botToken = ""; /*You'll have to set this yourself; read more
+const botToken = "NTIwNTg2MjI3MTQ2MjkzMjQ4.DuwBjQ.QNhoyFXVlfMSaNVv2pLv83UWU9E"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
  
 //Load up the bot...
