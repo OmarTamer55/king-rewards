@@ -478,21 +478,6 @@ message.channel.sendMessage('**الرجاء الانتظار ريث ما يتم 
   });
   }
 });
-client.on("guildMemberAdd", member => {
-        if(member.guild.id === "505754434840559617") {  // ايدي السيرفر
-  const channel = member.guild.channels.find('id', '516241723295399959'); //ايدي الروم
-if (!channel) return;
-channel.send(`**<@${member.user.id}> Welcome To __♦The Hunters Games♦__  ** ❤️ `)  
-}});
-client.on("guildMemberRemove", member => {
-        if(member.guild.id === "515908660975632385") { 
-  const channel = member.guild.channels.find('id', '511278633923510283'); 
-if (!channel) return;
-  channel.send(`**${member.user.tag} Left The Server  ** 😭 `) 
-}});
-client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","Members")); //اسم ا��رتبة
-    });
 
 client.on("ready", () => { // كود رينبو
   function lol() {
