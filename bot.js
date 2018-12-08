@@ -651,10 +651,6 @@ const reactions = ["💻", "🖌", "😃", "🆕"];
 const botToken = "NTIwNTg2MjI3MTQ2MjkzMjQ4.DuwBjQ.QNhoyFXVlfMSaNVv2pLv83UWU9E"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
  
-//Load up the bot...
-const Discord = require('discord.js');
-const bot = new Discord.Client();
-bot.login(botToken);
  
 //If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
